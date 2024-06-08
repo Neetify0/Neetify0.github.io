@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neetify</title>
+    <style>
+        /* Setting the body background to the same black as Webflow (#0a0a0a) and the font */
+        body {
+            margin: 0;
+            background-color: #0a0a0a;
+            font-family: 'Inter', sans-serif; /* Assuming 'Inter' is the font used in Webflow */
+            color: white;
+        }
+
+        /* Styling the navigation bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #0a0a0a;
+            border-bottom: 1px solid #333;
+        }
+
+        /* Neetify logo on the left */
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation links on the right */
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .nav-links li {
+            display: inline;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .navbar .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Importing the Inter font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NEETIFY</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Games</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
