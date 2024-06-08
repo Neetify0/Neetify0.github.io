@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neetify</title>
     <style>
-        /* Setting the body background to the same black as Webflow (#0a0a0a) and the font */
+        /* Setting the body background to white and the font to Lexend */
         body {
             margin: 0;
-            background-color: #0a0a0a;
-            font-family: 'Inter', sans-serif; /* Assuming 'Inter' is the font used in Webflow */
-            color: white;
+            background-color: white;
+            font-family: 'Lexend', sans-serif;
+            color: black;
         }
 
         /* Styling the navigation bar */
@@ -19,14 +19,15 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px;
-            background-color: #0a0a0a;
-            border-bottom: 1px solid #333;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
         }
 
         /* Neetify logo on the left */
         .navbar .logo {
             font-size: 24px;
             font-weight: bold;
+            color: black;
         }
 
         /* Navigation links on the right */
@@ -42,16 +43,17 @@
 
         .navbar .nav-links a {
             text-decoration: none;
-            color: white;
+            color: black;
             font-size: 18px;
+            transition: text-shadow 0.3s ease;
         }
 
         .navbar .nav-links a:hover {
-            text-decoration: underline;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
 
-        /* Importing the Inter font */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        /* Importing the Lexend font */
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
     </style>
 </head>
 <body>
